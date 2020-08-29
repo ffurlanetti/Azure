@@ -1,3 +1,2 @@
-apt-get update -y
-apt-get install nginx -y
-service nginx start
+apt-get update -y && apt-get upgrade -y
+apt-get install -y nginx
